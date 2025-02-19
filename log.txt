@@ -1,2 +1,4 @@
 2/18/2025
-Initialized repository, added script that filters large Food.com dataset into dessert recipes only, then kept 25% of the dessert recipes, currently there are 18,000.
+-Initialized repository, added script that filters large Food.com dataset into dessert recipes only. 
+-Kept 25% of the dessert recipes, currently there are 18,000. 
+-Added ingredient substitutions, in case we want to use that in the future.

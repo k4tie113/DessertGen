@@ -1,9 +1,12 @@
 
 #monitor.py: check up on the fine tuning status from the openAI
 import openai
-
+import os
+from dotenv import load_dotenv
 # OpenAI client
-client = openai.OpenAI(api_key="")
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+client = openai.OpenAI(api_key=API_KEY)
 
 # Job ID from fine-tuning start
 job_id = "ftjob-EDsjG3AEoPDEunWLywfRML79"

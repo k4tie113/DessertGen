@@ -1,8 +1,12 @@
 #finetune.py: main script for fine tuning.
 import openai
-
-# OpenAI client (new format)
-client = openai.OpenAI(api_key="")
+import openai
+import os
+from dotenv import load_dotenv
+# OpenAI client
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+client = openai.OpenAI(api_key=API_KEY)
 
 # Start fine-tuning using the uploaded file ID
 fine_tune = client.fine_tuning.jobs.create(

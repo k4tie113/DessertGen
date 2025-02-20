@@ -2,5 +2,3 @@ FileID for fine tuning 10k recipes: file-VJuHVLJqpCPwcMDh9UCWSz
 JobID: ftjob-reHvBKPoHYb4a3MkcGeHDcfs
 
 
-
-API Key: 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

@@ -2,7 +2,7 @@
 import openai
 
 # OpenAI client (new format)
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key="")
 
 # Start fine-tuning using the uploaded file ID
 fine_tune = client.fine_tuning.jobs.create(

@@ -2,3 +2,8 @@
 -Initialized repository, added script that filters large Food.com dataset into dessert recipes only. 
 -Kept 25% of the dessert recipes, currently there are 18,000. 
 -Added ingredient substitutions, in case we want to use that in the future.
+2/19/2025
+-Took a 10k recipe sample from filtered_data.txt and structured it in fine tuning format
+-Made the fine tune script, generated file ID (uploaded dataset to openAI servers, got unique fileID)
+-Made the monitor fine tuning script in /code
+-Started fine tuning !!!

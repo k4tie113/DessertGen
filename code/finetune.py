@@ -11,7 +11,7 @@ fine_tune = client.fine_tuning.jobs.create(
 )
 
 # Print the fine-tuning job ID 
-#Job ID: ftjob-reHvBKPoHYb4a3MkcGeHDcfs
+#Job ID: ftjob-EDsjG3AEoPDEunWLywfRML79
 print(f"Fine-tuning started! Job ID: {fine_tune.id}")
 
 """ COMPLETED AS OF 2/19 - GENERATED FILE ID FOR FINE TUNING DATASET: file-VJuHVLJqpCPwcMDh9UCWSz

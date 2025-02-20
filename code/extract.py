@@ -65,18 +65,4 @@ def find_best_matching_recipe(user_ingredients, user_time, df, substitution_df):
     # Format and return the best recipe
     return format_recipe(best_match)
 
-# Load the dataset (update with your actual file path)
-df = pd.read_csv("../data/filtered_data_sampled.csv")
 
-# Load ingredient substitutions
-substitutions = pd.read_csv("../data/ingredient_substitutions.csv").set_index("ingredient")["substitutes"].apply(lambda x: x.split(", ")).to_dict()
-
-# Example user input (Modify this as needed)
-user_ingredients = ["low-fat mayonnaise", "orange rind", "fresh orange juice", "fresh dill weed"]
-user_time = "30 minutes"
-
-# Find the best matching recipe
-best_recipe = find_best_matching_recipe(user_ingredients, user_time, df, substitutions)
-
-# Print the result
-print(best_recipe)
